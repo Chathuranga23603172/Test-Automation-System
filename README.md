@@ -32,3 +32,4 @@ Open your terminal or command prompt, navigate to this project folder, and run t
 pip install -U pip
 pip install playwright openpyxl
 playwright install
+python test_automation.py --excel "Assignment_1_Test_cases_Long_Fail.xlsx" --url "[https://www.pixelssuite.com/chat-translator](https://www.pixelssuite.com/chat-translator)" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
