@@ -32,4 +32,10 @@ Open your terminal or command prompt, navigate to this project folder, and run t
 pip install -U pip
 pip install playwright openpyxl
 playwright install
+3. Run the Automation Script
+Execute the following command to start the automated transliteration testing:
+
+Bash
 python test_automation.py --excel "Assignment_1_Test_cases_Long_Fail.xlsx" --url "[https://www.pixelssuite.com/chat-translator](https://www.pixelssuite.com/chat-translator)" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
+📊 Expected Output
+Once the script finishes execution, open the Excel file. The Actual output and Status columns will be automatically populated based on the test results.
